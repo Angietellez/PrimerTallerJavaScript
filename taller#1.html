@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer taller Java Script</title>
+</head>
+
+<body>
+    <script>
+
+        // EJERCICIO #1  (CALIFICACION DE PEPE):
+        /* PDTA: Profe se que debo optimizar codigo pero la verdad aun no tengo esa logica de 
+                 programacion y no sabia como hacerlo, tampoco quize guiarme de mis compañeros
+                 y hacerlo como ellos lo hicieron porque de nada serviria sacarme un 5 en este
+                 taller sin entener nada y sin lograr hacer nada por mis propios medios  :(   
+            */
+
+        /*
+        let parcial1 = Number(prompt("Ingrese la calificacion del parcial No.1"));
+        let parcial2 = Number(prompt("Ingrese la calificacion del parcial No.2"));
+        let parcial3 = Number(prompt("Ingrese la calificacion del parcial No.3"));
+        let promedioParciales = (parcial1 / 3 + parcial2 / 3 + parcial3 / 3)
+        let examenFinal = Number(prompt("Ingrese la calificacion de su examen final"));
+        let trabajoFinal = Number(prompt("Ingrese la calificacion de su trabajo final"));
+        
+        let final = ((promedioParciales * 0.55)+ (examenFinal * 0.30)+ (trabajoFinal * 0.15));
+        alert("Su promedio es: " + final)
+        if(final >= 3.5)
+        {
+            alert("Felicitaciones!! aprovaste la materia")
+        }
+        else {
+            alert("Lo sentimos, debes repetir la materia")
+        }
+        document.write(`TU NOTA FINAL ES: ${final}`)
+        */
+        
+
+
+        //___________________________________________________________________________________________________________________________________
+
+        // EJERCICIO #2  (JUEGO ADIVINA EL NUMERO):
+        //  EN ESTE EJERCICIO NO LOGRO QUE FUNCIONEN LOS TRES IF SIEMPRE, SOLO ME FUNCIONA PARA EL ULTIMO NUMERO
+        // QUE EL USUARIO PONE EN EL PROMPT
+
+        /*
+        var numSecreto = parseInt(Math.random() * (50 - 0));
+        console.log(numSecreto);
+        for (i = 1; i <= 3; i++) {
+            var jugador = Number(prompt(`Adivina el numero entre 0 y 50, tienes 10 intentos 
+            *_*         LLEVAS ${i} INTENTOS          *_*`));
+       
+        if (jugador < numSecreto) {
+            alert("EL NUMERO SECRETO ES MAYOR")
+        }
+        if (jugador > numSecreto) {
+            alert("EL NUMERO SECRETO ES MENOR")
+        }
+        if (jugador == numSecreto) {
+            alert("FELICITACIONES!! HAS LOGRADO ADIVINAR EL NUMERO SECRERO")
+        }
+    }
+    */
+
+
+        //___________________________________________________________________________________________________________________________________
+
+        // EJERCICIO #3  (NUMEROS PARES E IMPARES):
+        //  CREAR ALGORITO QUE PIDA X CANTIDAD DE NUMEROS Y DETERMINE QUE PORCENTAJE SON PARES Y QUE PORCENTAJE IMPARES
+        /*      
+       for (i=0 ; i<8; i++){
+       let usuario = Number(prompt("Ingresa 8 numeros diferentes"));
+       let numeros = [usuario];
+       let pares = numeros % 2 == 0
+       console.log(numeros);
+       console.log(pares);
+       }
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+        //___________________________________________________________________________________________________________________________________
+
+        // EJERCICIO #4  (NUMEROS DEL 1 AL 100 Y DEL 100 AL 200):       
+
+       /*
+   var opcionUsuario = Number(prompt("Ingrese una opcion: 1) VER EN PANTALLA LOS NUMERO DE 1 A 100 2) VER EN PANTALLA LOS NUMEROS DE 100 A 200"));
+
+   for(i=1; i<=100; i++)
+     if (opcionUsuario == 1){
+        document.write(`Número: ${i} <br>`);
+     }
+     for ( i=100; i<=200; i++)
+     if (opcionUsuario == 2){
+        document.write(`Número: ${i} <br>`);
+     }
+ */
+
+        //___________________________________________________________________________________________________________________________________
+
+        // EJERCICIO #5  (UNA PALABRA ES PALINDROMO O NO):     
+
+       /*
+        var palindromo = prompt("Ingresa una frase o un numero de mas de 3 digitos");
+        var arrayPalabra = palindromo.split("");
+        console.log(arrayPalabra);
+        var invertirPalabra = arrayPalabra.reverse();
+        console.log(invertirPalabra);
+        var unirPalabra = invertirPalabra.join("");
+        console.log(unirPalabra);
+
+        if (palindromo == unirPalabra ) {
+            alert("SI ES UN PALINDROMO ¡EXCELENTE TRABAJO!")
+        }
+        else {
+            alert("NO ES UN PALINDROMO, INGRESA UNA NUEVA FRASE")
+        }
+       */
+
+
+//___________________________________________________________________________________________________________________________________
+
+        // EJERCICIO #6  (UNA PALABRA ES PALINDROMO O NO):    
+
+        /*
+        let inputName = prompt("ingresa tu nombre");
+        let arrayName = [inputName];
+        */
+
+
+
+
+
+
+
+
+
+        
+
+//___________________________________________________________________________________________________________________________________
+
+        // EJERCICIO #7  (FRASE INGRESADA AL REVES INDICANDO CUANTAS LETRAS Y ESPACIOS TIENE):    
+/*
+        let usuario =prompt("Ingresa una palabra o frase");
+        var arrayPalabra = usuario.split("");
+        var invertirPalabra = arrayPalabra.reverse();
+        var unirPalabra = invertirPalabra.join("");
+        let numEspacios = 0;
+
+        for (i=0; i<usuario.length; i++){
+            if(arrayPalabra[i] == " ") {
+                numEspacios = numEspacios+1
+            }
+        }
+
+        document.write (`FRASE INGRESADA:  ${usuario} <br> 
+        FRASE AL REVES: ${unirPalabra} <br> 
+        NUMERO DE ESPACIOS: ${numEspacios} <br>
+        NUMERO DE LETRAS: ${usuario.length - numEspacios}` );
+   */
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
